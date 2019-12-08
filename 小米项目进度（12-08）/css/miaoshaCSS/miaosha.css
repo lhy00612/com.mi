@@ -1,0 +1,174 @@
+/* 头部导航栏样式 */
+header {
+    /* width: 1350px; */
+    height: 44px;
+    background-color: #333333;
+}
+
+/* 头部导航栏左盒子样式 */
+.head-left {
+    float: left;
+}
+
+.head-left a,
+.head-left i {
+    line-height: 44px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.head-left a:hover {
+    color: #ffffff;
+}
+
+.head-left i {
+    margin: 0px 8px;
+}
+
+/* 头部导航栏右盒子 */
+.head-right {
+    float: right;
+}
+
+.head-right a,
+.head-right i {
+    line-height: 44px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.head-right a:nth-child(5) {
+    margin-right: 30px;
+}
+
+.head-right a:nth-child(6) {
+    display: inline-block;
+    text-align: center;
+    width: 133px;
+    height: 44px;
+    background-color: #424242;
+}
+
+.head-right a:nth-child(6):hover {
+    color: #ff6700;
+    background-color: #fff;
+}
+
+.head-right a:hover {
+    color: #ffffff;
+}
+
+.head-right i {
+    margin: 0px 8px;
+}
+
+/* 头部搜索栏样式  */
+.header-nav {
+    height: 130px;
+    /* background-color: pink; */
+    /* line-height: 130px; */
+}
+
+.header-nav-logo {
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin-top: calc((130px - 55px) / 2);
+    margin-right: 50px;
+}
+
+.header-nav-logo a {
+    display: block;
+    /* float: left; */
+    width: 55px;
+    height: 55px;
+    line-height: 130px;
+    background-position: center;
+    background-color: #ff6700;
+    background-image: url(../../img/index-img/mi-logo.png);
+}
+
+.header-nav-logo-a:hover {
+    background-color: #ff6700;
+    background-image: url(../../img/index-img/mi-home.png);
+}
+
+.header-nav-list  li{
+    float: left;
+}
+
+.mi-phone {
+    height: 230px;
+
+}
+.mi-phones {
+    height: 230px;
+    background-color: pink;
+
+}
+.header-nav-list li a {
+    font-size: 16px;
+    line-height: 130px;
+    margin: 0 15px;
+    color: #333;
+}
+.header-nav-list li li{
+    width: 203px;
+    height: 164px;
+    background-color: RED;
+}
+.header-nav-list li .mi-phones  img{
+    width: 160px;
+    position: relative;
+    height: 110px;
+    z-index: 111;
+}
+
+.header-nav-list a:hover {
+    color: #ff6700;
+}
+
+.header-nav-list a:hover:first-child {
+    color: #333;
+}
+
+/* 头部搜索栏-搜索栏样式 */
+.header-nav-search {
+    float: right;
+    margin-top: calc((130px - 50px)/2);
+}
+
+.header-nav-search input {
+    float: left;
+    width: 245px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    border-right: none;
+    background-color: #fff;
+}
+
+.header-nav-search button {
+    float: left;
+    width: 52px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    background-color: #fff;
+}
+
+.header-nav-search button:hover {
+    background: #ff6700;
+    color: #fff;
+}
+
+.header-nav-search button span {
+    font-weight: 700;
+}
+
+/* 页面主题样式 */
+.title {
+    height: 113px;
+    background-image: url(../../img/miaosha-img/xiaomimiaosha.jpg);
+    background-position: center 3px;
+}
