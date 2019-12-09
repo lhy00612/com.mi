@@ -1,0 +1,182 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #1f56d6;
+}
+
+
+/* 顶部标题样式 */
+.topnav-title {
+    height: 58px;
+}
+
+/* 顶部标题左部样式 */
+.topnav-title-left {
+    height: 50;
+    float: left;
+    margin-left: 30px;
+}
+
+.topnav-title-left img {
+    float: left;
+    height: 50px;
+    line-height: 58px;
+    margin-right: 12px;
+}
+
+.topnav-title-left span {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    line-height: 58px;
+}
+
+
+/* 顶部标题右部样式 */
+.topnav-title-right {
+    float: right;
+    margin-right: 20px;
+    height: 58px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.topnav-title-right a {
+    color: #fff;
+    margin: 0 15px;
+    line-height: 58px;
+
+}
+
+/* 中部内容 */
+.center-content {
+    width: 100%;
+    /* height: 642.52px; */
+}
+
+
+/* 中部左盒子样式  */
+.center-content-left {
+    float: left;
+    margin-left: 450px;
+    margin-top: 185px;
+}
+
+.center-content-left p {
+    margin-left: 17px;
+    font-size: 58px;
+    color: #fff;
+}
+
+.center-content-left p:nth-child(2) {
+    font-size: 18px;
+    margin: 30px 0 52px;
+
+}
+
+.center-content-left a {
+    display: block;
+    width: 320px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.center-content-left a img {
+    float: left;
+    margin-top: 15px;
+    line-height: 56px;
+    width: 24px;
+    height: 24px;
+    margin-left: 48px;
+    margin-right: 12px;
+}
+
+.center-content-left a span {
+    float: left;
+    font-size: 18px;
+    color: #1851D7;
+    line-height: 56px;
+}
+
+.center-content-right {
+    width: 875.36px;
+    height: 640.52px;
+    float: left;
+    margin-left: 211px;
+}
+
+.center-content-right img {
+    height: 640.52px;
+}
+
+/* 底部盒子样式 */
+.bottom-nav {
+    width: 100%;
+    text-align: center;
+}
+
+/* 底部盒子——上 */
+.bottom-nav .bottom-nav-top {
+    margin-bottom: 24px;
+}
+
+.bottom-nav .bottom-nav-top i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+.bottom-nav .bottom-nav-top span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+.bottom-nav .bottom-nav-top a {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+
+.bottom-nav .bottom-nav-top a:nth-child(3) {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.bottom-nav .bottom-nav-top a:nth-child(3):hover {
+    color: #fff;
+}
+
+.bottom-nav .bottom-nav-top a:nth-last-child(-n+2) {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+
+.bottom-nav .bottom-nav-top a:nth-last-child(-n+2):hover {
+    color: #fff;
+}
+
+/* 底部盒子——中 */
+.bottom-nav-center a {
+    font-size: 12px;
+    color: #9AB3EA;
+}
+
+.bottom-nav-center i {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 15px;
+}
+
+
+/* 底部盒子——下 */
+.bottom-nav-bottom {
+    margin-top: 8px;
+    color: #9AB3EA;
+}
+
+
+
+
+
+
+
+
