@@ -1,0 +1,197 @@
+/* 头部导航栏 */
+header {
+    width: 1902px;
+    height: 98px;
+}
+
+header>div {
+    width: 1130px;
+    height: 98px;
+}
+
+/* 主题内容 */
+main {
+    width: 1902px;
+    height: 588px;
+    background-image: url(../../img/rigister-img/rigister.jpg);
+    background-position: top center;
+    margin-bottom: 100px;
+}
+
+.main-content {
+    position: relative;
+    margin-top: 35px;
+    float: right;
+    width: 450px;
+    height: 612px;
+    background-color: #fff;
+    padding-top: 35px;
+    box-sizing: border-box;
+    margin-right: 366px;
+}
+
+.main-content::after {
+    position: absolute;
+    content: "";
+    width: 132px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 268px;
+    top: 466px;
+}
+
+.main-content::before {
+    position: absolute;
+    content: "";
+    width: 132px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 50px;
+    top: 466px;
+}
+
+.main-content span:nth-child(1) {
+    display: block;
+    float: left;
+    margin-left: 73px;
+    font-size: 24px;
+    color: #ff6700;
+    margin-bottom: 36px;
+}
+
+.main-content i:nth-child(2) {
+    display: block;
+    float: left;
+    margin: 0 45px;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+.main-content span:nth-child(3) {
+    float: left;
+    /* margin-top: 35px; */
+    font-size: 24px;
+    color: #666;
+}
+
+.main-content span:nth-child(3):hover {
+    color: #ff6700;
+}
+
+.main-content input {
+    display: block;
+    width: 346px;
+    height: 48px;
+    padding: 13px 16px 13px 14px;
+    margin-left: 50px;
+    box-sizing: border-box;
+
+}
+
+.main-content input:nth-child(4) {
+    margin-bottom: 16px;
+}
+
+.main-content input:nth-child(5) {
+    margin-bottom: 26px;
+}
+
+.main-content button {
+    display: block;
+    width: 346px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: #ff6700;
+    border: 1px solid #ff6700;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.main-content a {
+    /* margin-left: 35px; */
+    /* margin-top: 14px; */
+    color: #999999;
+    font-size: 14px;
+}
+
+.main-content a:hover {
+    color: #ff6700;
+}
+
+.main-content a:nth-child(7) {
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-right: 97px;
+    color: #ff6700;
+}
+
+.main-content a:nth-child(11) {
+    display: block;
+    margin-top: 145px;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+.main-content a:nth-child(11):hover {
+    color: #ff6700;
+}
+
+.font svg {
+    margin-right: 33px;
+}
+
+.font svg:nth-child(1) {
+    font-size: 35px;
+    margin-left: 107px;
+}
+
+.font svg:nth-child(2) {
+    font-size: 30px;
+}
+
+.font svg:nth-child(3) {
+    font-size: 30px;
+}
+
+.font svg:nth-child(4) {
+    font-size: 30px;
+}
+
+
+
+/* 底部样式 */
+footer {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+.p-top a,
+.p-top i {
+    color: #757575;
+    font-size: 14px;
+}
+
+.p-top a:first-child {
+    color: #333333;
+}
+
+.p-top a:hover {
+    color: #333333;
+}
+
+.p-top i {
+    margin: 0 12px;
+}
+
+.p-bottom {
+    padding: 10px;
+}
+
+.p-bottom a {
+    font-style: 14px;
+    color: #757575;
+    margin-bottom: 16px;
+}
+
